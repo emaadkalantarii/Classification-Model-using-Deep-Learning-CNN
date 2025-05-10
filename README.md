@@ -65,6 +65,7 @@ Ensure your dataset is in a directory named `topomaps` in the same directory as 
 To train the model, run:
 ```bash
 python train.py
+```
 
 This script will:
 
@@ -100,3 +101,4 @@ Train/Validation Split: test_size=0.3 for initial validation split, then test_si
 
 ## Results
 The model's performance (accuracy, precision, recall, F1-score) will depend on the dataset characteristics, the training process, and hyperparameter tuning. The train.py script includes a validation loop to monitor performance and save the best model based on validation loss. The eval.py script includes an example of how to calculate accuracy on a test set if ground truth labels can be inferred from filenames.
+
